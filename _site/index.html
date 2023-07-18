@@ -16,16 +16,31 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
 </head>
 
+
 <body style="display: flex !important; flex-direction: column !important; height: 100% !important;">
 
   <main style="margin-top: 1rem !important; flex-shrink: 0 !important;">
     <nav class="navbar navbar-expand-lg navbar-themed">
+      <a class="navbar-brand" href="/" aria-label="Home">
+        <img class="logo" src="Images/logo.svg" alt="Logo">
+      </a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
-    <a class="navbar-brand" href="/" aria-label="Home" ><i><svg class="branding" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M22.1875 6.125L14.4375 18.7917C13.5834 20.1667 14.5834 21.9583 16.2084 21.9583H31.6875C33.3125 21.9583 34.3125 20.1667 33.4584 18.7917L25.7292 6.125C24.9167 4.79167 23 4.79167 22.1875 6.125Z" fill="#FFA000"/>
-      <path d="M35.4167 26.125C32.0673 26.125 28.9724 27.9119 27.2977 30.8125C25.623 33.7131 25.623 37.2869 27.2977 40.1875C28.9724 43.0881 32.0673 44.875 35.4167 44.875C38.7661 44.875 41.861 43.0881 43.5357 40.1875C45.2104 37.2869 45.2104 33.7131 43.5357 30.8125C41.861 27.9119 38.7661 26.125 35.4167 26.125V26.125Z" fill="#EC407A"/>
-      <path d="M7.29168 43.8333H19.7917C20.9375 43.8333 21.875 42.8958 21.875 41.75V29.25C21.875 28.1042 20.9375 27.1667 19.7917 27.1667H7.29168C6.14584 27.1667 5.20834 28.1042 5.20834 29.25V41.75C5.20834 42.8958 6.14584 43.8333 7.29168 43.8333Z" fill="#29B6F6"/>
-      </svg>
+   
       
       </i></a>
   
@@ -49,21 +64,21 @@
     <div class="background d-none d-md-block"></div>
     <div class="container height-100">
     <div class="row height-100">
-    <div class="col col-md-6 col-lg-5 col-12 height-100 d-flex align-items-md-center blurbg">
+    <div class="col col-md-8 col-lg-7 col-12 height-100 d-flex align-items-center blurbg">
         <div class="content text-center text-md-right ">
             <img class="logo" src="Images/logo.svg" alt="Logo">
                 <h1>Shashank Benakatti</h1>
                 <span class="text description">
-                   Hello, I am Shashank. 
+                   Hey there , I am Shashank. 
                    I am a Third(Junior Year) Student pursuing his Undergrad in Computer Science and Engineering from the Manipal Academy of Higher Education Bengaluru Campus 
                 </span>
                 <span class="text small-heading">FOLLOW ME ON</span>
                 <div class="icons d-flex justify-content-center justify-content-md-end">
-                <a class="social-icon" href="https://twitter.com/ThisIsVyshnav" ><img src="Icons/twitter.svg" alt="Twitter"></a>
-                <a class="social-icon" href="https://github.com/Vyshnav2255" ><img src="Icons/github.svg" alt="Github"></a>
-                <a class="social-icon" href="mailto:example@xyz.xyz" ><img src="Icons/at-sign.svg" alt="Mail"></a>
-                <a class="social-icon" href="https://dribbble.com/vyshnav_" ><img src="Icons/dribbble.svg" alt="Dribbble"></a>
-                <a class="social-icon" href="https://instagram.com/vyshnavgangadharan" ><img src="Icons/instagram.svg" alt="Instagram"></a>
+                <a class="social-icon" href="https://twitter.com/shashankb18" ><img src="Icons/twitter.svg" alt="Twitter"></a>
+                <a class="social-icon" href="https://github.com/shashank60" ><img src="Icons/github.svg" alt="Github"></a>
+                <a class="social-icon" href="mailto:bob525test@gmail.com" ><img src="Icons/at-sign.svg" alt="Mail"></a>
+                <a class="social-icon" href="https://dribbble.com/" ><img src="Icons/dribbble.svg" alt="Dribbble"></a>
+                <a class="social-icon" href="https://instagram.com/" ><img src="Icons/instagram.svg" alt="Instagram"></a>
                 </div>
                 <span class="text small-heading">LIKE MY WORK</span>
                 <a href="#" class="btn btn-outline-dark">Hire Me</a>
@@ -73,14 +88,14 @@
 
     </main>
   
-    <footer style="margin-top: auto; padding-top: 3rem; padding-bottom: 1rem; display: block; text-align: center; font-family: sen;">
+    <footer style="padding-top: 3rem; padding-bottom: 1rem; text-align: center; font-family: sen; position: fixed; bottom: 0; width: 100%;">
+      <small class="text-muted" style="margin-bottom: .5rem;">
+        Made with ❤️ by <strong>Shashank Benakatti</strong>
+      </small>
+    </footer>
+  </div>
 
-    <small class="text-muted" style="margin-bottom: .5rem;">
-      Made with ❤️ by <strong>John Doe</strong>
-    </small>
-  
-  </footer>
-
+  <!-- Other scripts and closing tags... -->
 </body>
 
 </html>
