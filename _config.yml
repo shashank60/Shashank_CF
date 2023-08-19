@@ -1,16 +1,16 @@
-title               : John Doe
+title               : Shashank Benakatti
 description         : >-                               # >- means to ignore newlines until "url:"
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Hey , I am Shashank. A 3rd Year Student pursuing Computer Science at the Manipal Institute of Technology, Bengaluru Campus.
 
-url                 : "https://vyshnav2255.github.io/Minimal-Portfolio-Website/"
+
+url                 : "https://vyshnav2255.github.io/"
 repository          : Vyshnav2255/Minimal-Portfolio-Website 
 
-email: example@xyz.xyz
-github_user: Vyshnav2255
-instagram: vyshnavgangadharan
-twitter: ThisIsVyshnav
-dribbble: vyshnav_
-
+email: bob525test@gmail.com
+github_user: shashank60
+instagram: shashank_.b
+twitter: shashankb18
+dribbble: google.com
 
 exclude:
 - README.md
